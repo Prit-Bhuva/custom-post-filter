@@ -1,0 +1,108 @@
+.filter-option.msg-updated,
+.filter-option {
+    margin-right: 25px;
+}
+
+.filter-option h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#post-filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    padding: 20px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+#post-filter-form label {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#post-filter-form .chosen-select {
+    width: calc(100% - 140px) !important;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#post-filter-form .button-primary {
+    margin-left: 10px;
+    width: 130px;
+}
+
+.post-types-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.msg-updated {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.msg-updated p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.success-message:before {
+    content: '\2713';
+    font-size: 20px;
+    color: #155724;
+    margin-right: 10px;
+}
+
+.close-button {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.chosen-container-multi .chosen-choices {
+    background-image: unset !important;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice {
+    margin: 10px 0px 10px 6px !important;
+    background: #dddddd !important;
+    border: unset !important;
+    padding: 6px 25px 8px 12px !important;
+    box-shadow: unset !important;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    top: 8px !important;
+    right: 6px !important;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {
+    margin: 10px 0 !important;
+    padding: 10px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .filter-option {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .post-types-select {
+        font-size: 16px;
+    }
+}
